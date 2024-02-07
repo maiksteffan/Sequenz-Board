@@ -33,10 +33,12 @@ This Arduino project utilizes touch sensors and an LED strip to create a sequenc
         - Connect one terminal of the button to pin 2 (buttonPin) on the Arduino.
         - Connect the other terminal of the button to ground (GND) on the Arduino.
 
-    - **OLED Display**:
+    **OLED Display**:
         - Connect the CS (chip select) pin of the OLED display to pin 10 on the Arduino.
         - Connect the DC (data/command) pin of the OLED display to pin 9 on the Arduino.
         - Connect the RESET pin of the OLED display to pin 8 on the Arduino.
+        - Connect the MOSI (Master Out Slave In) pin of the OLED display to pin 11 (MOSI) on the Arduino.
+        - Connect the SCK (serial clock) pin of the OLED display to pin 13 (SCK) on the Arduino.
         - Connect the power (+5V) and ground (GND) pins of the OLED display to the corresponding pins on the Arduino.
 
     - **CAP1188 Touch Sensor**:
